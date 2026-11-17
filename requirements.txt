@@ -1,0 +1,26 @@
+# Multi-Agent Banking Assistant Dependencies
+
+# LangChain & LangGraph
+langgraph>=0.2.70
+langchain>=0.3.18
+langchain-core>=0.3.35
+langchain-openai>=0.3.6
+
+# API & Web Framework
+fastapi>=0.115.0
+uvicorn[standard]>=0.34.0
+pydantic>=2.10.0
+pydantic-settings>=2.7.0
+python-dotenv>=1.0.1
+
+# Database & ORM
+SQLAlchemy>=2.0.38
+psycopg2-binary>=2.9.10
+pgvector>=0.3.6
+
+# Document Processing (PDF)
+pymupdf>=1.25.0
+
+# Testing & Utilities
+pytest>=8.3.0
+httpx>=0.28.0
